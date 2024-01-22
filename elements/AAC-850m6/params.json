@@ -1,0 +1,61 @@
+{
+    "add_is_visible": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 15,
+        "width": 15
+    },
+    "display": "change date list",
+    "events": {
+        "AAI": {
+            "caption": "Item Alterado",
+            "name": "alterado"
+        }
+    },
+    "fields": {
+        "AAD": {
+            "caption": "tabe",
+            "editor": "custom_type",
+            "name": "tabela",
+            "rank": 0
+        },
+        "AAE": {
+            "caption": "data",
+            "editor": "DynamicValue",
+            "name": "dados",
+            "rank": 1,
+            "value": "custom_data_AAD"
+        },
+        "AAF": {
+            "caption": "list",
+            "editor": "custom_field_AAD",
+            "field_list": true,
+            "field_type_restriction": "date",
+            "name": "lista",
+            "rank": 2
+        }
+    },
+    "icon": "ion-android-list",
+    "property_applications": {
+        "resizable": true
+    },
+    "states": {
+        "AAG": {
+            "caption": "New list",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "is_list": true,
+            "name": "lista",
+            "value": "date"
+        },
+        "AAH": {
+            "caption": "Current item",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "item",
+            "value": "custom_data_AAD"
+        }
+    }
+}

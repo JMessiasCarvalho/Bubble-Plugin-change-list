@@ -1,0 +1,19 @@
+{
+    "caption": "Alterar Item",
+    "fields": {
+        "AAK": {
+            "caption": "Item index",
+            "editor": "DynamicValue",
+            "name": "index",
+            "rank": 0,
+            "value": "number"
+        },
+        "AAL": {
+            "caption": "new value",
+            "editor": "DynamicValue",
+            "name": "valor",
+            "rank": 1,
+            "value": "date"
+        }
+    }
+}

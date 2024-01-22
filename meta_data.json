@@ -1,0 +1,10 @@
+{
+    "categories": {
+        "0": "productivity",
+        "1": "technical"
+    },
+    "description": "change list of dates without changing order of items.\nChange column type: This field is a list (multiple entries)",
+    "image": "//meta-q.cdn.bubble.io/f1705944280706x625607824692413500/836751-2.png",
+    "license": "open_source",
+    "name": "change list"
+}
